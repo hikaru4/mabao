@@ -28,7 +28,7 @@ var hackerList,
             '</li>'
     };
 
-let url = '/mabao_list.json';
+let url = 'mabao_list.json';
 
 fetch(url)
     .then(res => res.json())
